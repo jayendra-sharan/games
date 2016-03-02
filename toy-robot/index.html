@@ -11,7 +11,26 @@
 	<div class="history">
 		<textarea id="historyText" rows="16" cols="60" readonly="readonly"></textarea>
 	</div>
-	<input type="text" id="commands" />&nbsp;<button type="button" id="enter">ENTER</button>
+	<input type="text" id="commands" placeholder="enter your command here" />&nbsp;<button type="button" id="enter">ENTER</button>
+
+	<div class="instructions">
+		<p>List of Legal Commands and Instructions
+		<ul>
+			<li>To perform some action, enter the command in the text box and press enter or click the enter button</li>
+			<li><span class="cmd">PLACE X,Y,F</span> : Will put the robot to position X and Y, Facing F</li>
+			<li>Legal Value of F is {NORTH, EAST, SOUTH, WEST}</li>
+			<li><span class="cmd">MOVE</span> : Will move the Robot to One unit</li>
+			<li><span class="cmd">LEFT</span> : Will turn the face of the robot to 90 degrees counter clockwise</li>
+			<li><span class="cmd">RIGHT</span> : Will turn the face of the robot to 90 degrees counter clockwise</li>
+			<li><span class="cmd">REPORT</span> : Will display the current position and face direction of robot</li>
+			<li>IMPORTANT! The toy robot must not fall off the table during the movement.</li>
+			<li>IMPORTANT! The toy robot's initial placement must be on the table</li>
+			<li>Each Unit is 50px</li>
+			<li>The width and height of the robot is 50px making it One Unit, effectively</li>
+			<li>The face of the robot is represented by a black line of 3px width inside robot</li>
+
+		</ul>
+	</div>
 	<script type="text/javascript" src="js/script.js"></script>
 	<script type="text/javascript" src="js/script_game.js"></script>
 

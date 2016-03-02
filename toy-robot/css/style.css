@@ -15,3 +15,43 @@ canvas {
 	position: absolute;
 	display: inline-block;
 } 
+
+#commands {
+	width: 200px;
+	height: 20px;
+}
+
+#enter {
+    border: 0;
+    background-color: #8377FA;
+    height: 23px;
+    width: 100px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.instructions {
+    background-color: #E3F4FC;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: serif;
+    line-height: 1.5;
+    text-indent: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.instructions p {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+ul {
+	padding-left: 40px;
+}
+.cmd {
+    color: #0000FF;
+    font-weight: bold;
+}
